@@ -1,0 +1,56 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/ESP32/mqtt/mqttfx/lib/log4j-slf4j-impl-2.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/ESP32/mqtt/mqttfx/lib/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+May 21, 2023 5:43:36 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 9 by JavaFX runtime of version 8.0.181
+May 21, 2023 5:43:37 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 9 by JavaFX runtime of version 8.0.181
+May 21, 2023 5:43:37 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 9 by JavaFX runtime of version 8.0.181
+2023-05-21 17:43:37,872  INFO --- Start App                      : Style: LIGHT /styles/mqttfx_theme_light.css
+2023-05-21 17:43:38,584  WARN --- Updater                        : Could not establish connection to URL ''http://www.jensd.de/apps/mqttfx/appcast.xml'': 403 http://www.jensd.de/apps/mqttfx/appcast.xml
+2023-05-21 17:43:38,586  INFO --- ScriptingManager               : Found action with name: Switch Fountain Test
+May 21, 2023 5:43:38 PM javafx.scene.CssStyleHelper calculateValue
+WARNING: Caught 'java.lang.ClassCastException: javafx.scene.paint.LinearGradient cannot be cast to javafx.scene.paint.Color' while converting value for '-fx-background-color' from rule '*.menu-bar' in stylesheet jar:file:/D:/ESP32/mqtt/mqttfx/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+2023-05-21 17:43:48,145  INFO --- BrokerConnectorController      : onConnect
+2023-05-21 17:43:48,182  INFO --- MqttFX ClientModel             : MqttClient with ID 7b503926c4bd445598dba1b0f328ba56 assigned.
+2023-05-21 17:43:48,428  INFO --- MqttFX ClientModel             : session present: false
+2023-05-21 17:43:54,685  INFO --- SubscribeController            : onSubscribe
+2023-05-21 17:43:54,731  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2023-05-21 17:43:54,732  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2023-05-21 17:43:54,732  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@389ef609
+2023-05-21 17:43:54,733  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:43:54,733  INFO --- MqttFX ClientModel             : addPublishTopic : EPS32-Uae-Sub
+2023-05-21 17:43:54,733  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic EPS32-Uae-Sub (QoS 0)
+2023-05-21 17:43:57,751  INFO --- PublishController              : publish
+2023-05-21 17:43:57,753  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:43:57,753  INFO --- MqttFX ClientModel             : sucessfully published message  to topic Uae-Sub (QoS 0, Retained: false)
+2023-05-21 17:44:00,964  INFO --- PublishController              : publish
+2023-05-21 17:44:00,965  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:44:00,965  INFO --- MqttFX ClientModel             : sucessfully published message  to topic Uae-Sub (QoS 0, Retained: false)
+2023-05-21 17:44:20,196  INFO --- PublishController              : publish
+2023-05-21 17:44:20,197  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:44:20,197  INFO --- MqttFX ClientModel             : sucessfully published message off to topic Uae-Sub (QoS 0, Retained: false)
+2023-05-21 17:44:32,098  INFO --- SubscribeController            : onSubscribe
+2023-05-21 17:44:32,154  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2023-05-21 17:44:32,154  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2023-05-21 17:44:32,154  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@2bf740e6
+2023-05-21 17:44:32,154  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:44:32,158  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic Uae-Sub (QoS 0)
+2023-05-21 17:44:36,269  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2023-05-21 17:44:36,271  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2023-05-21 17:44:36,271  INFO --- MqttFX ClientModel             : sucessfully unsubscribed from topic: EPS32-Uae-Sub
+2023-05-21 17:44:46,344  INFO --- PublishController              : publish
+2023-05-21 17:44:46,345  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:44:46,345  INFO --- MqttFX ClientModel             : sucessfully published message off to topic Uae-Sub (QoS 0, Retained: false)
+2023-05-21 17:44:46,401  INFO --- MqttFX ClientModel             : messageArrived() with topic: Uae-Sub
+2023-05-21 17:44:46,404  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'Uae-Sub'
+2023-05-21 17:44:52,685  INFO --- PublishController              : publish
+2023-05-21 17:44:52,685  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2023-05-21 17:44:52,685  INFO --- MqttFX ClientModel             : sucessfully published message on to topic Uae-Sub (QoS 0, Retained: false)
+2023-05-21 17:44:52,750  INFO --- MqttFX ClientModel             : messageArrived() with topic: Uae-Sub
+2023-05-21 17:44:52,750  INFO --- MqttFX ClientModel             : messageArrived() added: message #2 to topic 'Uae-Sub'
+2023-05-21 17:48:15,232  INFO --- mqttfx                         : closeApp()
+Weld SE container STATIC_INSTANCE shut down by shutdown hook

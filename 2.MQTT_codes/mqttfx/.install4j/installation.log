@@ -1,0 +1,472 @@
+[INFO] logger started at Mon Apr 03 15:31:19 CST 2023
+[INFO] executable name: D:\BaiduNetdiskDownload\mqttfx-1.7.1-windows-x64.exe
+[INFO] install4j version: 7.0.4 (build 7124)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=D:\BaiduNetdiskDownload\mqttfx-1.7.1-...
+sun.boot.library.path=c:\users\uae\appdata\local\temp\e4j1e...
+exe4j.semaphoreName=Local\d:_baidunetdiskdownload_mqttfx-...
+java.vm.version=25.181-b13
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=CN
+sun.os.patch.level=
+install4j.exeDir=D:\BaiduNetdiskDownload\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\uae\AppData\Local\Temp\e4j1E...
+java.runtime.version=1.8.0_181-b13
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\uae\appdata\local\temp\e4j1e...
+os.arch=amd64
+java.io.tmpdir=C:\Users\uae\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\uae\AppData\Local\Temp\e4j1E...
+os.name=Windows 10
+sun.java2d.noddraw=true
+sun.jnu.encoding=GBK
+java.library.path=C:\Users\uae\AppData\Local\Temp\e4j1E...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\uae
+user.timezone=Asia/Shanghai
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=GBK
+user.name=uae
+java.class.path=C:\Users\uae\AppData\Local\Temp\e4j1E...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=c:\users\uae\appdata\local\temp\e4j1e...
+sun.java.command=D:\BaiduNetdiskDownload\mqttfx-1.7.1-...
+exe4j.launchName=D:\BaiduNetdiskDownload\mqttfx-1.7.1-...
+java.specification.vendor=Oracle Corporation
+user.language=zh
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=45868102
+java.version=1.8.0_181
+java.ext.dirs=c:\users\uae\appdata\local\temp\e4j1e...
+sun.boot.class.path=c:\users\uae\appdata\local\temp\e4j1e...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\uae\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=amd64
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 3314 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       Variable changed: sys.installationDir=D:\ESP32\mqttfx[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Response file D:\ESP32\mqttfx\.install4j\response.varfile does not exist
+       Execute action successful after 9 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=MQTT.fx[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-console-l1-1-0.dll; size: 19264 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:13 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-debug-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-file-l1-1-0.dll; size: 22336 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-file-l1-2-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-file-l2-1-0.dll; size: 18744 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-handle-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-heap-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-localization-l1-2-0.dll; size: 21312 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-memory-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 19776 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 20800 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 19256 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-profile-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-string-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-synch-l1-1-0.dll; size: 20800 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-synch-l1-2-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 19776 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-core-util-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 19776 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 22848 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 20800 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 19776 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-math-l1-1-0.dll; size: 27968 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 26944 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-private-l1-1-0.dll; size: 71488 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-process-l1-1-0.dll; size: 19768 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 23360 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 24896 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-string-l1-1-0.dll; size: 24896 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-time-l1-1-0.dll; size: 21312 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 19256 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\awt.dll; size: 1523576 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\bci.dll; size: 17784 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\concrt140.dll; size: 332456 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\dcpr.dll; size: 160632 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\decora_sse.dll; size: 87928 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\deploy.dll; size: 607096 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\dt_shmem.dll; size: 30584 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\dt_socket.dll; size: 25464 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\eula.dll; size: 137080 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\fontmanager.dll; size: 275320 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\fxplugins.dll; size: 191864 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\glass.dll; size: 285048 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\glib-lite.dll; size: 460152 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\gstreamer-lite.dll; size: 622968 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\hprof.dll; size: 159096 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\instrument.dll; size: 124280 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\j2pcsc.dll; size: 19832 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\j2pkcs11.dll; size: 64376 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jaas_nt.dll; size: 21368 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jabswitch.exe; size: 35192 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\java-rmi.exe; size: 16760 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\java.dll; size: 161656 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\java.exe; size: 207736 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\JavaAccessBridge-64.dll; size: 143224 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\javacpl.cpl; size: 189440 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\javacpl.exe; size: 84856 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\javafx_font.dll; size: 74616 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\javafx_font_t2k.dll; size: 547704 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\javafx_iio.dll; size: 132472 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\javaw.exe; size: 208248 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\java_crw_demo.dll; size: 30584 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jawt.dll; size: 15224 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\JAWTAccessBridge-64.dll; size: 16248 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jdwp.dll; size: 203128 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jfr.dll; size: 28024 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jfxmedia.dll; size: 145784 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jfxwebkit.dll; size: 51328888 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\bin\jjs.exe; size: 16760 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jli.dll; size: 175992 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jp2iexp.dll; size: 306552 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jp2launcher.exe; size: 123256 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jp2native.dll; size: 20856 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jp2ssv.dll; size: 245112 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jpeg.dll; size: 187768 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jsdt.dll; size: 19320 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jsound.dll; size: 36216 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\jsoundds.dll; size: 32120 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\kcms.dll; size: 221560 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\keytool.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\kinit.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\klist.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\ktab.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\lcms.dll; size: 244088 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\management.dll; size: 37752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\mlib_image.dll; size: 654712 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\msvcp140.dll; size: 627368 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\msvcr100.dll; size: 829264 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\net.dll; size: 97656 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\nio.dll; size: 61304 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\npt.dll; size: 19832 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\orbd.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\pack200.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\policytool.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\prism_common.dll; size: 62328 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\prism_d3d.dll; size: 134520 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\prism_sw.dll; size: 100216 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\resource.dll; size: 16248 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\rmid.exe; size: 16760 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\rmiregistry.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\server\jvm.dll; size: 8835448 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\server\Xusage.txt; size: 1423 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\servertool.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\splashscreen.dll; size: 206712 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\ssv.dll; size: 582008 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\ssvagent.exe; size: 76152 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\sunec.dll; size: 136568 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\sunmscapi.dll; size: 32632 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\t2k.dll; size: 257400 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\tnameserv.exe; size: 17272 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\ucrtbase.dll; size: 1001792 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\unpack.dll; size: 80760 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\unpack200.exe; size: 200568 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\vcruntime140.dll; size: 87224 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\verify.dll; size: 50040 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\w2k_lsa_auth.dll; size: 24952 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\WindowsAccessBridge-64.dll; size: 110968 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\wsdetect.dll; size: 193400 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\bin\zip.dll; size: 79224 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\COPYRIGHT; size: 3244 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\accessibility.properties; size: 149 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\amd64\jvm.cfg; size: 634 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\calendars.properties; size: 1378 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\charsets.jar; size: 3036922 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:15 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\classlist; size: 84355 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\currency.data; size: 4134 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\ffjcext.zip; size: 14156 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_ko.properties; size: 5712 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_pt_BR.properties; size: 3285 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_sv.properties; size: 3384 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\splash.gif; size: 8590 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\splash_11-lic.gif; size: 7805 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy\splash_11@2x-lic.gif; size: 12250 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\deploy.jar; size: 5046710 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:15 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\access-bridge-64.jar; size: 195778 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:16 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\cldrdata.jar; size: 3837830 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:17 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\dnsns.jar; size: 8150 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\jaccess.jar; size: 43839 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\jfxrt.jar; size: 18203123 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\localedata.jar; size: 2204307 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\meta-index; size: 1461 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\nashorn.jar; size: 1983170 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:18 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\sunec.jar; size: 41672 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\sunjce_provider.jar; size: 277834 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\sunmscapi.jar; size: 33143 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\sunpkcs11.jar; size: 250131 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\ext\zipfs.jar; size: 67502 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:18 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\fontconfig.bfc; size: 3770 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fontconfig.properties.src; size: 10568 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\javafx.properties; size: 56 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\jce.jar; size: 115651 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\jfr\default.jfc; size: 20109 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\jfr\profile.jfc; size: 20065 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\jfr.jar; size: 558903 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:15 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\jfxswt.jar; size: 33471 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\jsse.jar; size: 595772 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\management\management.properties; size: 14630 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:15 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\meta-index; size: 2126 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\net.properties; size: 4464 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\plugin.jar; size: 1923848 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:15 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\resources.jar; size: 3492586 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:15 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\rt.jar; size: 54668749 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:16 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\security\blacklist; size: 4054 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:31:14 CST 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\jre\lib\security\blacklisted.certs; size: 1253 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\cacerts; size: 114757 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\java.policy; size: 2466 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\java.security; size: 42624 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\policy\limited\local_policy.jar; size: 3527 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\policy\limited\US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\policy\unlimited\local_policy.jar; size: 3035 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\policy\unlimited\US_export_policy.jar; size: 3023 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\tzdb.dat; size: 105882 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\lib\tzmappings; size: 9577 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\LICENSE; size: 40 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\README.txt; size: 46 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\release; size: 426 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 106782 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\THIRDPARTYLICENSEREADME.txt; size: 154222 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\jre\Welcome.html; size: 955 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\i4jdel.exe; size: 91120 bytes; exists: false
+       File options set to: [fileTime: Fri Sep 28 20:26:46 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\.install4j\i4jinst.dll; size: 163840 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\MQTT.fx-jfx.jar; size: 2565149 bytes; exists: false
+       File options set to: [fileTime: Fri Sep 28 20:26:46 CST 2018, mode: 644, overwriteMode: Always ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\lib\addon-commons-1.1.0.jar; size: 2985 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\assertj-core-3.5.1.jar; size: 574532 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\bcprov-jdk16-1.46.jar; size: 1876535 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\bsh-2.0b4.jar; size: 234581 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\centerdevice-nsmenufx-1.0.0.jar; size: 11573 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\classmate-1.1.0.jar; size: 41359 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\commons-beanutils-1.9.2.jar; size: 149817 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\commons-codec-1.10.jar; size: 375843 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\commons-collections-3.2.1.jar; size: 273371 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\commons-io-2.4.jar; size: 128176 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\commons-logging-1.1.1.jar; size: 68187 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\controlsfx-8.40.10.jar; size: 584529 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\fontawesomefx-commons-8.15.jar; size: 11398 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\fontawesomefx-controls-8.15.jar; size: 1898 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\fontawesomefx-fontawesome-4.7.0-5.jar; size: 202973 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\fontawesomefx-weathericons-2.0.10-5.jar; size: 125806 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\hibernate-validator-5.2.4.Final.jar; size: 450943 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\httpclient-4.5.2.jar; size: 498667 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\httpcore-4.4.4.jar; size: 173457 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jackson-annotations-2.8.0.jar; size: 23398 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jackson-core-2.9.4.jar; size: 236837 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jackson-core-asl-1.9.13.jar; size: 157586 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jackson-databind-2.8.9.jar; size: 629916 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jackson-mapper-asl-1.9.13.jar; size: 363242 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jboss-logging-3.2.1.Final.jar; size: 64266 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jcommander-1.48.jar; size: 43328 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\jjwt-0.9.0.jar; size: 79963 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\log4j-1.2.17.jar; size: 283301 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\log4j-api-2.6.jar; size: 136704 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\log4j-core-2.6.jar; size: 621631 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\log4j-slf4j-impl-2.6.jar; size: 33075 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\mqttfx-payload-decoders-1.6.0.jar; size: 4124 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\org.eclipse.paho.client.mqttv3-1.2.0.jar; size: 217453 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\org.eclipse.swt.cocoa.macosx.x86_64-4.3.jar; size: 5079256 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\protobuf-java-3.2.0.jar; size: 840677 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\refuel-0.1.0.jar; size: 24102 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\shichimifx-1.2.3.jar; size: 467367 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\slf4j-api-1.7.5.jar; size: 19113 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\slf4j-log4j12-1.7.22.jar; size: 8097 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\sparkplug-java-1.1.11.jar; size: 219535 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\testng-6.9.10.jar; size: 548721 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\validation-api-1.1.0.Final.jar; size: 23958 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\lib\weld-se-2.3.5.Final.jar; size: 2088117 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\mqttfx.exe; size: 440832 bytes; exists: false
+       File options set to: [fileTime: Fri Sep 28 20:26:46 CST 2018, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\uninstall.exe; size: 715776 bytes; exists: false
+       File options set to: [fileTime: Fri Sep 28 20:26:46 CST 2018, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\.install4j\inst_jre.cfg; size: 63 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:32:04 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\.install4j\pref_jre.cfg; size: 21 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:32:04 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\.install4j\i4jruntime.jar; size: 1697805 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 03 15:32:04 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\ESP32\mqttfx\.install4j\MessagesDefault; size: 33680 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\i4jparams.conf; size: 48156 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\stats.properties; size: 538 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\user.jar; size: 8374 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\i4j_extf_0_xo0c4t.utf8; size: 33680 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\i4j_extf_1_xo0c4t_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\i4j_extf_1_xo0c4t_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: D:\ESP32\mqttfx\.install4j\installer.ico; size: 15749 bytes; exists: false
+       Execute action successful after 18371 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: []
+       Property programGroupName: MQTT.fx
+       Property uninstallerMenuName: MQTT.fx Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MQTT.fx\MQTT.fx.lnk; size: 717 bytes; exists: true
+       File options set to: [fileTime: Mon Apr 03 15:32:05 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MQTT.fx\MQTT.fx Uninstaller.lnk; size: 734 bytes; exists: true
+       File options set to: [fileTime: Mon Apr 03 15:32:05 CST 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 175 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: MQTT.fx 1.7.1
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 35 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

@@ -1,0 +1,7 @@
+# install4j response file for MQTT.fx 1.7.1
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\ESP32\\mqttfx
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=MQTT.fx

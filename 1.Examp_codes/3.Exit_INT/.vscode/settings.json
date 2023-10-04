@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "C_Cpp.vcFormat.indent.braces": true,
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true
+}
